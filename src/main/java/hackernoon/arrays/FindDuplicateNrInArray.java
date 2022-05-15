@@ -1,4 +1,4 @@
-package hackernoon;
+package hackernoon.arrays;
 
 import java.util.Arrays;
 
