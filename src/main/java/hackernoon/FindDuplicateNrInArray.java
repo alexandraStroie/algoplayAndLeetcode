@@ -34,12 +34,9 @@ public class FindDuplicateNrInArray {
             if (prev != arr[i]){
                 result[i] = arr[i];
             }
-
             prev = arr[i];
         }
-
         return result;
     }
-
 
 }

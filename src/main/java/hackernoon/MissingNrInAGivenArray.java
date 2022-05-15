@@ -27,7 +27,8 @@ public class MissingNrInAGivenArray {
 //        return rez;
 
         int numberOfTotalElementInArray = arr.length + 1;
-        int sumOfNrsInArrayWithMissingNr = (numberOfTotalElementInArray * (numberOfTotalElementInArray+1)) / 2;
+        int sumOfNrsInArrayWithMissingNr = (numberOfTotalElementInArray
+                * (numberOfTotalElementInArray+1)) / 2;
 
         int sumOfElementsInArr = 0;
         for (int i = 0; i < arr.length; i++) {

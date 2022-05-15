@@ -37,6 +37,4 @@ public class AdiInterview {
 
         return sum;
     }
-
-
 }

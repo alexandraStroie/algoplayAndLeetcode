@@ -34,9 +34,7 @@ public class AllPairsOfArraySumEqualToTarget {
                     results[1] = arr[j];
                 }
             }
-
         }
-
         return results;
     }
 
